@@ -1,0 +1,79 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.button-img {
+	text-align: center;
+	margin: 10px;
+}
+
+.button1, .button2 {
+    border: 1px solid #e89bd6;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2); 
+    margin: 10px auto;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;
+    background: #e89bd6;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+            
+}
+
+.button1:hover {
+   background: #f9e3f4;
+   color: #e89bd6;
+}
+
+.button2:hover {
+    background: #f9e3f4;
+    color: #e89bd6;
+}                
+
+.container {
+	margin: auto;
+	width: 50%;
+/*	border: 2px solid black;*/
+	overflow: hidden;
+}
+
+.carusel {
+	display: flex;
+	width: 100%;
+}
+
+.img-2 {
+	width: 100%;
+}
+
+.img-3 {
+	width: 100%;
+}
+
+
+.carusel img {
+	display: block;
+	background-size: cover; 
+	width: 100%;
+}
+
+.transformAnimation {
+	transition: .4s all ease-in-out; 
+/*	//добавить класс в js так слайдер будет плавным*/
+}
+
+
+
+
+
+
+
+
+
+
+
